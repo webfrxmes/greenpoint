@@ -233,7 +233,7 @@ local function AddDraggingFunctionality(DragPoint, Main)
 end   
 
 local function PackColor(Color)
-	return {R = Color.R * 255, G = Color.G * 255, B = Color.B * 255}
+	return {R = Color.R * 75, G = Color.G * 151, B = Color.B * 75}
 end    
 
 local function UnpackColor(Color)
